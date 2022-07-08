@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'Karla';
+
+  }
+ 
+
+  .flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ 
+ .card{
+    background: #FFF;
+    width: 250px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+ }
+ 
+ .img{
+    height: 200px;
+    width: 100%;
+    
+    border-radius: 5px;
+    background-size: cover;
+ }
+ 
+ main a{
+    padding: 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background: #333EFF20;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #333eFF;
+    text-decoration: none;
+    font-size: 15px;
+ }
+
+  body{
+    background: #F4F5FA;
+ }
+
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+  }
+  
+  header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+  }
+  
+  header a:hover {
+    color: #b2dfdb;
+  }
+  
+  #nav-Logo {
+    margin-right:auto ;
+    font-size: 1.5em;
+  }
+  
+  /* End of header */
+  
+  /* start of main */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #fafafa;
+    min-height: 100vh;
+  }
+
+
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    
+    
+    padding: 20px;
+    box-shadow: 0 1px 8px #ddd;
+    background-color: #878f99;
+  
+    
+  }
+  
+  .footer__headline {
+    font-weight: bold;
+    font-family: 'Gulzar', serif;
+  }
+  
+  .footer__list {
+    font-family: 'Gulzar', serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  footer a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+    
+  }
+  footer li {
+    margin: auto;
+  
+  }
+  
+  .copyDiv {
+    background-color: black;
+    color: aquamarine;
+    text-align: center;
+  }
